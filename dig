@@ -1,0 +1,9 @@
+dig is domain information groper.
+  It is used for interrogating DNS name servers.
+
+1. dig
+    - Perform NS query for the root (".") servers. 
+2. dig @server name type
+3. dig example.com +multiline
+4. dig example.com +trace
+5. dig -x 8.8.8.8
